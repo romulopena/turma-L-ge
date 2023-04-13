@@ -21,3 +21,18 @@
     display: inline-block;
     padding: 0px 30px;
 }
+
+.turma{
+    background-image: linear-gradient(#59BE50,#95b8923f);
+    font-size: 25px;
+    padding: 50px 250px;
+    
+}
+.turma-titulo{
+    padding-bottom: 45px;
+}
+.turma-imagem{
+    width: 300px;
+    
+    
+}
