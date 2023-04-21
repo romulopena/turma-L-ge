@@ -1,7 +1,14 @@
+/*SELETOR UNIVERSAL*/
 *{
     margin: 0;
     padding: 0;
 }
+/*CORPO DA PAGINA*/
+body{
+
+    font-family: 'Jost', sans-serif;
+}
+/*SEÇÃO CABEÇALHO*/
 .cabecalho{
     background-color:#26B71A ;
     color: white;
@@ -21,18 +28,40 @@
     display: inline-block;
     padding: 0px 30px;
 }
-
+/*SEÇÃO TURMA*/
 .turma{
     background-image: linear-gradient(#59BE50,#95b8923f);
     font-size: 25px;
     padding: 50px 250px;
     
+    
 }
 .turma-titulo{
     padding-bottom: 45px;
+    text-align: center;
+}
+
+.turma-div{
+    display: flex;
+    justify-content: center;
 }
 .turma-imagem{
     width: 300px;
-    
-    
+        
+}
+/*SEÇÃO ALUNO*/
+.aluno{
+    background-image: linear-gradient(#34A64D,#34a64d0e);
+}
+.aluno-div{
+    text-align: center;
+}
+
+.aluno-imagem{
+    width: 140px;
+    height: 169px;
+}
+.aluno-icone{
+    width: 52px;
+    height: 53px;
 }
